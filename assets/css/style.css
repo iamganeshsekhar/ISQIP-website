@@ -2,7 +2,7 @@
 Author: iThemesLab
 Author URI: http://ithemeslab.com
 Author Email: ithemeslab@gmail.com */
-/* 
+/*
 ----------Table of Content------------
 ======================================
 01	Global Styles
@@ -28,9 +28,9 @@ Author Email: ithemeslab@gmail.com */
 	4.2 Generel Information Area
 	4.3 Conference Area
 	5.4 Pages Start
-	5.4.1 About page 
-	5.4.2 Error Page 
-	5.5 Speakers Page 
+	5.4.1 About page
+	5.4.2 Error Page
+	5.5 Speakers Page
 	5.5.1 Speakers
 	5.5.2 Speakers Single
 	5.6 Blgo Page Start
@@ -313,19 +313,7 @@ html .ui-button.ui-state-disabled:active {
   transition: all 0.4s;
   opacity: 0; }
 
-#scrollUp {
-  text-decoration: none;
-  bottom: 26px;
-  background: url(../img/up.png);
-  background-repeat: no-repeat;
-  height: 50px;
-  position: fixed;
-  background-size: cover;
-  right: 50px;
-  width: 50px;
-  z-index: 1000;
-  border: none;
-  outline: none; }
+
 
 /*google map*/
 #googlemap {
@@ -359,7 +347,7 @@ html .ui-button.ui-state-disabled:active {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  margin: 0; }
+  margin-bottom: 50px; }
 
 .text-left {
   text-align: left; }
@@ -732,9 +720,9 @@ a {
     height: 100vh; }
     .hero-banner-area .banner-content h1, .hero-banner-area .banner-content h2, .hero-banner-area .banner-content h3, .hero-banner-area .banner-content h4, .hero-banner-area .banner-content h5, .hero-banner-area .banner-content h6 {
       font-weight: 300;
-      font-size: 64px;
+      font-size: 70px;
       color: #fff;
-      line-height: 64px;
+      line-height: 55px!important;
       text-transform: capitalize; }
     .hero-banner-area .banner-content h2 {
       font-size: 64px;
