@@ -2,7 +2,7 @@
 Author: iThemesLab
 Author URI: http://ithemeslab.com
 Author Email: ithemeslab@gmail.com */
-/* 
+/*
 ----------Table of Content------------
 ======================================
 01	Global Styles
@@ -28,9 +28,9 @@ Author Email: ithemeslab@gmail.com */
 	4.2 Generel Information Area
 	4.3 Conference Area
 	5.4 Pages Start
-	5.4.1 About page 
-	5.4.2 Error Page 
-	5.5 Speakers Page 
+	5.4.1 About page
+	5.4.2 Error Page
+	5.5 Speakers Page
 	5.5.1 Speakers
 	5.5.2 Speakers Single
 	5.6 Blgo Page Start
@@ -312,20 +312,6 @@ html .ui-button.ui-state-disabled:active {
   -o-transition: all 0.4s;
   transition: all 0.4s;
   opacity: 0; }
-
-#scrollUp {
-  text-decoration: none;
-  bottom: 26px;
-  background: url(../img/up.png);
-  background-repeat: no-repeat;
-  height: 50px;
-  position: fixed;
-  background-size: cover;
-  right: 50px;
-  width: 50px;
-  z-index: 1000;
-  border: none;
-  outline: none; }
 
 /*google map*/
 #googlemap {
@@ -748,6 +734,11 @@ a {
       display: inline-block;
       line-height: 40px;
       margin-bottom: 30px; }
+
+.ws-font{
+  text-align: center;
+  font-size: 20px !important;
+}
 
 .hero-banner-area {
   height: 100vh; }
