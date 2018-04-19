@@ -131,7 +131,7 @@
     padding-bottom: 30px;
   }
   .navbar-expand-lg {
-    background-color: #4125dd;
+    background-color: #e54e27;
     margin-top: 30px;
   }
   .f-logo img {
@@ -141,7 +141,6 @@
     margin-bottom: 40px;
   }
   .header .navbar-toggler-icon {
-    background-color: #cf057c;
     outline: none;
     padding-top: 5px;
     color: #fff;
@@ -158,6 +157,8 @@
   .base-style-2 .navbar-nav .nav-link {
     color: #fff;
   }
+  .header .navbar-nav .nav-link:hover{
+    color: #252525; }
   .hero-banner-area .banner-content {
     text-align: center;
     -webkit-box-align: center;
