@@ -1321,7 +1321,9 @@ a {
 
 .pricing-tables-area .pricing-box {
   border: 1px solid #ccc;
-  padding: 30px;
+  
+  padding-left: 30px;
+  padding-right: 20px;
   border-radius: 8px;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -1340,7 +1342,7 @@ a {
       text-align: right;
       color: #fff;
       font-weight: 600;
-      margin-top: 30px; }
+      margin-top: 10px; }
       .pricing-tables-area .pricing-box .pricing-header .pricing-value span {
         font-size: 30px;
         font-weight: 500; }
@@ -1377,13 +1379,14 @@ a {
     text-align: center; }
     .pricing-tables-area.event-schedule .pricing-header .pricing-value h3 {
       font-size: 24px;
-      line-height: 24px;
+      line-height: 20px;
       color: #fff;
       font-weight: 600; }
     .pricing-tables-area.event-schedule .pricing-header .pricing-value p {
       font-size: 14px;
-      margin-bottom: 0;
-      font-weight: normal; }
+      margin-bottom: 100px;
+      font-weight: normal;
+    padding-bottom: 40px;}
 
 .pricing-tables-area.event-schedule .pricing-content {
   margin-top: 30%; }
