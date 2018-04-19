@@ -162,7 +162,7 @@ html .ui-button.ui-state-disabled:active {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #F73607;
+  background-color: #fff;
   margin: auto;
   z-index: 9999; }
 
@@ -183,35 +183,35 @@ html .ui-button.ui-state-disabled:active {
   background-color: black;
   position: fixed;
   z-index: 99999;
-  border: 2px solid white; }
+ }
 
 .loader--dot:first-child {
-  background-color: #8cc759;
+  background-color: #F73607;
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s; }
 
 .loader--dot:nth-child(2) {
-  background-color: #8c6daf;
+  background-color: #3F3A37;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s; }
 
 .loader--dot:nth-child(3) {
-  background-color: #ef5d74;
+  background-color: #F73607;
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s; }
 
 .loader--dot:nth-child(4) {
-  background-color: #f9a74b;
+  background-color: #3F3A37;
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s; }
 
 .loader--dot:nth-child(5) {
-  background-color: #60beeb;
+  background-color: #F73607;
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s; }
 
 .loader--dot:nth-child(6) {
-  background-color: #fbef5a;
+  background-color: #3F3A37;
   -webkit-animation-delay: 0s;
   animation-delay: 0s; }
 
@@ -519,7 +519,9 @@ a {
   background-size: cover; }
 
 .bg-counter {
-  background-image: url(../img/bg/5.jpg); }
+/* background-image: url(../img/bg/5.jpg); */
+ background: #E74419;
+}
 
 .bg-contact {
   background-image: url(../img/bg/6.jpg); }
@@ -1127,7 +1129,7 @@ a {
   .whos-speaking-area .speakers .spk-img {
     position: relative; }
     .whos-speaking-area .speakers .spk-img:before {
-      background: rgba(91, 69, 213, 0.8);
+      background: #F73607B3;
       content: "";
       position: absolute;
       width: 100%;
@@ -1197,7 +1199,7 @@ a {
           line-height: 21px;
           text-align: center; }
           .whos-speaking-area .speakers .spk-img ul li a i.fa:hover {
-            color: #F7363B; }
+            color: #DBDBDB; }
         .whos-speaking-area .speakers .spk-img ul li:nth-child(1) {
           -webkit-transform: translate3d(-53px, -50px, 0);
           transform: translate3d(-53px, -50px, 0); }
@@ -1825,7 +1827,7 @@ a {
     .footer-area .f-content .f-social ul li {
       margin-right: 25px; }
       .footer-area .f-content .f-social ul li a i.fa {
-        color: #fff;
+        color: #7a7584;
         font-size: 20px;
         -webkit-transition: all 0.4s;
         -o-transition: all 0.4s;
