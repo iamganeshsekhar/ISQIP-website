@@ -1883,6 +1883,9 @@ a:focus {
 .our-sponsers-area-tow .single-sponsers {
   margin-bottom: 80px;
 }
+.our-sponsers-area-tow .single-sponsers img{
+  max-height: 70px; 
+}
 
 .our-sponsers-area-tow .sponsers-active .owl-nav div {
   position: absolute;
